@@ -16,7 +16,7 @@ RAI uses a **PI controller** to set a funding rate (similar to a perp swap’s f
 Repos from that era:  
 - [geb](https://github.com/stefanionescu/geb) – main code for RAI  
 - [geb-rrfm-rate-setter](https://github.com/stefanionescu/geb-rrfm-rate-setter) – the redemption rate feedback mechanism (controller that sets the funding rate)  
-- [geb-safe-saviours](https://github.com/stefanionescu/geb-safe-saviours) – adapters to deposit assets/wrapped tokens from other protocols into RAI-like systems. These get auctioned to save CDPs from liquidation.  
+- [geb-safe-saviours](https://github.com/stefanionescu/geb-safe-saviours) – adapters to deposit assets/wrapped tokens from other protocols into RAI-like systems. The deposited assets get auctioned to save CDPs from liquidation.  
 
 **RAI was basically a super nerdy modified DAI fork.**
 
