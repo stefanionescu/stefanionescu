@@ -23,7 +23,7 @@ Repos from that era:
 ---
 
 ## 🎭 What I’ve been hacking on since
-After crypto, I pivoted into building consumer apps. Life’s too short to do boring ass B2B. A few highlights:  
+After crypto, I moved on to building consumer apps. Life’s too short to do boring ass B2B. A few highlights:  
 
 - [llm-roleplay-webapp](https://github.com/stefanionescu/llm-roleplay-webapp) – think *Character.ai x TikTok*.  
   - Used `react-virtua` for efficient chat virtualization  
