@@ -42,5 +42,5 @@ After crypto, I pivoted into building consumer apps, 'cause life’s too short t
 - Now building **Yap** (voice-first consumer AI app w/ screen awareness)  
 - In between: shipped a bunch of fun/weird consumer projects to learn web dev.
 
-I love building products that are weird, unhinged and could not exist before.
+I love building products that are weird, unhinged and could not exist before LLMs came around.
 If you’re into that too, reach out and say hi 🤝
