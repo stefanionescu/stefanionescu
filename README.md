@@ -47,7 +47,7 @@ After crypto, I pivoted into building consumer apps. Life’s too short to do bo
 ## 🌍 TL;DR
 - Built **RAI** (floating-peg ETH-backed stablecoin w/ PI controller funding rate)  
 - Now building **Yap** (voice-first consumer AI app w/ screen awareness)  
-- In between: I worked a few years as project lead for a decentralized exchange. Decided to leave crypto at the end of 2023 and then started shippinh a bunch of fun/weird consumer projects.
+- In between: I worked a few years as project lead for a decentralized exchange. Decided to leave crypto at the end of 2023 and then started shipping a bunch of fun/weird consumer projects.
 
 I love building products that are weird, unhinged and could not exist before LLMs came around.
 If you’re into that too, reach out and say hi 🤝
