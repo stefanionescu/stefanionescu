@@ -1,16 +1,46 @@
-## Hi there 👋
+# Hey, I’m Stefan 👋
 
-<!--
-**stefanionescu/stefanionescu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Right now I’m building **[Yap](https://yapwith.ai)**, a voice consumer app where you can talk with an LLM that *sees your phone screen*.  
+It can roast TikToks, analyze dating profiles, help you draft messages/emails and much more. Launch date TBD.  
 
-Here are some ideas to get you started:
+Some open-source infra experiments around Yap (not the actual app code) live here:  
+- [yap-kokoro-tts-api](https://github.com/stefanionescu/yap-kokoro-tts-api) – deployment scripts & API for Kokoro TTS  
+- [yap-kyutai-tts-api](https://github.com/stefanionescu/yap-kyutai-tts-api) – deployment scripts & benchmark tests for Kyutai TTS (Moshi + 1.6B EN/FR model)  
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## 🧑‍🚀 Before Yap: RAI
+A few years back I worked on **RAI**, a floating-peg stablecoin backed by ETH.
+RAI uses a **PI controller** to set a funding rate (similar to a perp swap’s funding mechanism) and was my attempt at fulfilling the original vision for DAI.
+
+Repos from that era:  
+- [geb](https://github.com/stefanionescu/geb) – main code for RAI  
+- [geb-rrfm-rate-setter](https://github.com/stefanionescu/geb-rrfm-rate-setter) – the redemption rate feedback mechanism (controller that sets the funding rate)  
+- [geb-safe-saviours](https://github.com/stefanionescu/geb-safe-saviours) – adapters to deposit assets/wrapped tokens from other protocols into RAI-like systems. These get auctioned to save CDPs from liquidation.  
+
+**RAI was basically a super nerdy modified DAI fork.**
+
+---
+
+## 🎭 What I’ve been hacking on since
+After crypto, I pivoted into building consumer apps, 'cause life’s too short to do boring ass B2B. Some stuff I built:
+
+- [llm-roleplay-webapp](https://github.com/stefanionescu/llm-roleplay-webapp) – think *Character.ai x TikTok*.  
+  - Used `react-virtua` for efficient chat virtualization  
+  - Related repos:  
+    - [llm-inference-load-balancer](https://github.com/stefanionescu/llm-inference-load-balancer) – distribute inference requests across providers, scaling Llama models to 2000+ DAU  
+    - [llm-roleplay-main-api](https://github.com/stefanionescu/llm-roleplay-main-api) – RAG + waitlist API  
+    - [redis-user-waitlist](https://github.com/stefanionescu/redis-user-waitlist) – customizable Redis waitlist that actually scales  
+
+- [suno-music-discord-bot](https://github.com/stefanionescu/suno-music-discord-bot) – generate music from images/videos inside Discord.  
+  It scrapes Suno.com under the hood. Don’t tell them, lol 😂 
+
+---
+
+## 🌍 TL;DR
+- Built **RAI** (floating-peg ETH-backed stablecoin w/ PI controller funding rate)  
+- Now building **Yap** (voice-first consumer AI app w/ screen awareness)  
+- In between: shipped a bunch of fun/weird consumer projects to learn web dev.
+
+I love building products that are weird, unhinged and could not exist before.
+If you’re into that too, reach out and say hi 🤝
