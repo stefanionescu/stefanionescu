@@ -23,17 +23,24 @@ Repos from that era:
 ---
 
 ## 🎭 What I’ve been hacking on since
-After crypto, I pivoted into building consumer apps, 'cause life’s too short to do boring ass B2B. Some stuff I built:
+After crypto, I pivoted into building consumer apps. Life’s too short to do boring ass B2B. A few highlights:  
 
 - [llm-roleplay-webapp](https://github.com/stefanionescu/llm-roleplay-webapp) – think *Character.ai x TikTok*.  
   - Used `react-virtua` for efficient chat virtualization  
   - Related repos:  
-    - [llm-inference-load-balancer](https://github.com/stefanionescu/llm-inference-load-balancer) – distribute inference requests across providers, scaling Llama models to 2000+ DAU  
+    - [llm-inference-load-balancer](https://github.com/stefanionescu/llm-inference-load-balancer) – distribute inference requests across providers, scaling Llama models to 1000+ DAU  
     - [llm-roleplay-main-api](https://github.com/stefanionescu/llm-roleplay-main-api) – RAG + waitlist API  
     - [redis-user-waitlist](https://github.com/stefanionescu/redis-user-waitlist) – customizable Redis waitlist that actually scales  
 
+- [yc-cofounder-matching-bot](https://github.com/stefanionescu/yc-cofounder-matching-bot) – a Selenium bot I built to automatically hunt for cofounders on YC’s Cofounder Matching platform.  
+  - Can change locations to search in different cities  
+  - Filtered + saved founders, sent them messages with your own templates  
+  - Used GPT to decide if a profile was a fit or not  
+  - Sent you email reports with stats from each run  
+  (⚠️ Deprecated now due to YC’s security upgrades, but still a fun hack.)  
+
 - [suno-music-discord-bot](https://github.com/stefanionescu/suno-music-discord-bot) – generate music from images/videos inside Discord.  
-  It scrapes Suno.com under the hood. Don’t tell them, lol 😂 
+  (Yes, it scrapes Suno.com under the hood. Don’t tell them. 🙃)  
 
 ---
 
