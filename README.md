@@ -11,7 +11,7 @@ Some open-source infra experiments around Yap (not the actual app code) live her
 
 ## 🧑‍🚀 Before Yap: RAI
 A few years back I worked on **RAI**, a floating-peg stablecoin backed by ETH.
-RAI uses a **PI controller** to set a funding rate (similar to a perp swap’s funding mechanism) and was my attempt at fulfilling the original vision for DAI.
+RAI uses a **PI controller** to set its own funding rate (similar to a perp swap’s funding mechanism) and was my attempt at fulfilling the original vision for DAI.
 
 Repos from that era:  
 - [geb](https://github.com/stefanionescu/geb) – main code for RAI  
