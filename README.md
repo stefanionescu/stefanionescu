@@ -1,6 +1,6 @@
 # Hey, I’m Stefan 👋
 
-Right now I’m building **[Yap](https://yapwith.ai)**, a voice consumer app where you can talk with an LLM that *sees your phone screen*.  
+Right now I’m building **Yap**, a voice consumer app where you can talk with an LLM that *sees your phone screen*.  
 It can roast TikToks, analyze dating profiles, help you draft messages/emails and much more. Launch date TBD.  
 
 Some open-source infra experiments around Yap (not the actual app code) live here:  
