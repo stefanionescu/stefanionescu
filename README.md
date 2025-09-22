@@ -12,6 +12,7 @@ Some open-source infra experiments around Yap (not the actual app code) live her
 ## 🧑‍🚀 Before Yap: RAI
 A few years back I worked on **RAI**, a floating-peg stablecoin backed by ETH.
 RAI uses a **PI controller** to set its own funding rate (similar to a perp swap’s funding mechanism) and was my attempt at fulfilling the original vision for DAI.
+We scaled the system to $390M in user funds.
 
 Repos from that era:  
 - [geb](https://github.com/stefanionescu/geb) – main code for RAI  
@@ -47,7 +48,7 @@ After crypto, I moved on to building consumer apps. Life’s too short to do bor
 ## 🌍 TL;DR
 - Built **RAI** (floating-peg ETH-backed stablecoin w/ PI controller funding rate)  
 - Now building **Yap** (voice-first consumer AI app w/ screen awareness)  
-- In between: I worked a few years as project lead for a decentralized exchange. Decided to leave crypto at the end of 2023 and then started shipping a bunch of fun/weird consumer projects.
+- In between: I worked a few years as project lead for a decentralized exchange that got to $1B+ in user funds. Decided to leave crypto at the end of 2023 and then started shipping a bunch of fun/weird consumer projects.
 
 I love building products that are weird, unhinged and could not exist before LLMs came around.
 If you’re into that too, reach out and say hi 🤝
