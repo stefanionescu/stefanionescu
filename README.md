@@ -36,13 +36,13 @@ After crypto, I moved on to building consumer apps. Life’s too short to do bor
 
 - [yc-cofounder-matching-bot](https://github.com/stefanionescu/yc-cofounder-matching-bot) – a Selenium bot I built to automatically hunt for cofounders on YC’s Cofounder Matching platform.  
   - Can change locations to search in different cities  
-  - Filtered + saved founders, sent them messages with your own templates  
-  - Used GPT to decide if a profile was a fit or not  
-  - Sent you email reports with stats from each run  
+  - Filters + saves founder profiles, sends them messages with your own templates  
+  - Uses GPT to decide if a profile is a fit or not  
+  - Sends you email reports with stats from each run  
   (⚠️ Deprecated now due to YC’s security upgrades, but still a fun hack.)  
 
 - [suno-music-discord-bot](https://github.com/stefanionescu/suno-music-discord-bot) – generate music from images/videos inside Discord.  
-  (Yes, it scrapes Suno.com under the hood. Don’t tell them. 🙃)  
+  (It scrapes Suno.com under the hood. Don’t tell them. 🙃)  
 
 ---
 
