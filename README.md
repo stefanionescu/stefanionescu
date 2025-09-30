@@ -5,7 +5,8 @@ It can roast TikToks, analyze dating profiles, help you draft messages/emails an
 
 Some open-source infra experiments around Yap (not the actual app code) live here:  
 - [yap-kokoro-tts-api](https://github.com/stefanionescu/yap-kokoro-tts-api) – deployment scripts & API for Kokoro TTS  
-- [yap-kyutai-tts-api](https://github.com/stefanionescu/yap-kyutai-tts-api) – deployment scripts & benchmark tests for Kyutai TTS (Moshi + 1.6B EN/FR model)  
+- [yap-kyutai-tts-api](https://github.com/stefanionescu/yap-kyutai-tts-api) – deployment scripts & benchmark tests for Kyutai TTS (Moshi + 1.6B EN/FR model)
+- [yap-smart-turn-v2](https://github.com/stefanionescu/yap-vad-smart-turn-v2) - deployment scripts for a lightweight VAD model developed by Pipecat. Deprecated in favor of V3 that can run on CPU
 
 ---
 
