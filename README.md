@@ -7,6 +7,7 @@ Some open-source infra experiments around Yap (not the actual app code) live her
 - [yap-kokoro-tts-api](https://github.com/stefanionescu/yap-kokoro-tts-api) – deployment scripts & API for Kokoro TTS  
 - [yap-kyutai-tts-api](https://github.com/stefanionescu/yap-kyutai-tts-api) – deployment scripts & benchmark tests for Kyutai TTS (Moshi + 1.6B EN/FR model)
 - [yap-smart-turn-v2](https://github.com/stefanionescu/yap-vad-smart-turn-v2) - deployment scripts for a lightweight VAD model developed by Pipecat. Deprecated in favor of V3 that can run on CPU
+- [yap-vosk-stt-api](https://github.com/stefanionescu/yap-vosk-stt-api) - Vosk streaming ASR deployment with punctuation added via sherpa-onnx. Quality isn't great but it might be useful for someone dabbling in voice AI
 
 ---
 
