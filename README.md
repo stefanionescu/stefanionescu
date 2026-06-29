@@ -1,6 +1,6 @@
 # Hey, I’m Stefan 👋
 
-Right now I’m building (**Yap**)[https://yapwith.ai/]. It's a voice companion app you can share screenshots with while you use any other app on your phone. You talk with it while watching Youtube, shopping, reading etc.
+Right now I’m building [Yap](https://yapwith.ai/). It's a voice companion app you can share screenshots with while you use any other app on your phone. You talk with it while watching Youtube, shopping, reading etc.
 
 Some open-source infra experiments related to Yap:
 - [yap-kokoro-tts-api](https://github.com/stefanionescu/yap-kokoro-tts-api) – deployment scripts & API for Kokoro TTS  
