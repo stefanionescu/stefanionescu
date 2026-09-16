@@ -1,16 +1,17 @@
 # Hey, I’m Stefan 👋
 
-Right now I’m building [Yap](https://yapwith.ai/). It's a voice companion app you can share screenshots with while you use any other app on your phone. You talk with it while watching Youtube, shopping, reading etc.
+Right now I’m building a new live shopping app. Will reveal more in the next few weeks.
 
-Some open-source infra experiments related to Yap:
-- [yap-kokoro-tts-api](https://github.com/stefanionescu/yap-kokoro-tts-api) – deployment scripts & API for Kokoro TTS  
-- [yap-kyutai-tts-api](https://github.com/stefanionescu/yap-kyutai-tts-api) – deployment scripts & benchmark tests for Kyutai TTS (Moshi + 1.6B EN/FR model)
-- [yap-smart-turn-v2](https://github.com/stefanionescu/yap-vad-smart-turn-v2) - deployment scripts for a lightweight VAD model developed by Pipecat. Deprecated in favor of V3 that can run on CPU
-- [yap-vosk-stt-api](https://github.com/stefanionescu/yap-vosk-stt-api) - Vosk streaming ASR deployment with punctuation added via sherpa-onnx. Quality isn't great but it might be useful for someone dabbling in voice AI
+In 2025 and early 2026 I worked a lot on voice companions and voice infra. Check out some of that work here:
+- [orpheus-tts-api](https://github.com/stefanionescu/orpheus-tts-api)](https://github.com/stefanionescu/orpheus-tts-api) - Orpheus 3B TTS API
+- [voxtral-tts-api](https://github.com/stefanionescu/voxtral-stt-api) – Voxtral STT API
+- [voxcpm-1.5-tts-api](https://github.com/stefanionescu/voxcpm-1.5-tts-api) - VoxCPM 1.5 TTS API
+- [text-inference](https://github.com/stefanionescu/text-inference) - text inference server with the ability to switch between TensorRT and vLLM and run a lot of different models
+- [screenshot-analysis-pipeline](https://github.com/stefanionescu/screenshot-analysis-pipeline) - analyse phone/desktop screenshots; used to pass screenshot context to a companion
 
 ---
 
-## 🧑‍🚀 Before Yap: RAI
+## Past Projects: RAI
 A few years back I worked on **RAI**, a floating-peg stablecoin backed by ETH.
 RAI uses a **PI controller** to set its own funding rate (similar to a perp swap’s funding mechanism) and was my attempt at fulfilling the original vision for DAI.
 We scaled the system to $390M in user funds.
@@ -24,8 +25,8 @@ Repos from that era:
 
 ---
 
-## 🎭 What I’ve been hacking on since
-After crypto, I moved on to building consumer apps. Life’s too short to do boring ass B2B. A few highlights:  
+## Side Projects
+A bunch of other projects I've been playing with: 
 
 - [llm-roleplay-webapp](https://github.com/stefanionescu/llm-roleplay-webapp) – think *Character.ai x TikTok*.  
   - Used `react-virtua` for efficient chat virtualization  
@@ -39,17 +40,17 @@ After crypto, I moved on to building consumer apps. Life’s too short to do bor
   - Filters + saves founder profiles, sends them messages with your own templates  
   - Uses GPT to decide if a profile is a fit or not  
   - Sends you email reports with stats from each run  
-  (⚠️ Deprecated now due to YC’s security upgrades, but still a fun hack.)  
+  (Deprecated now due to YC’s security upgrades, but still a fun hack.)  
 
 - [suno-music-discord-bot](https://github.com/stefanionescu/suno-music-discord-bot) – generate music from images/videos inside Discord.  
-  (It scrapes Suno.com under the hood. Don’t tell them. 🙃)  
+  (It scrapes Suno.com under the hood. Don’t tell them.)  
 
 ---
 
-## 🌍 TL;DR
+## TL;DR
 - Built **RAI** (floating-peg ETH-backed stablecoin w/ PI controller funding rate)  
-- Now building **Yap** (voice-first consumer AI app w/ screen awareness)  
+- Now building a live shopping app
 - In between: I worked a few years as project lead for a decentralized exchange that got to $1B+ in user funds. Decided to leave crypto at the end of 2023 and then started shipping a bunch of fun/weird consumer projects.
 
 I love building products that are weird, unhinged and could not exist before LLMs came around.
-If you’re into that too, reach out and say hi 🤝
+If you’re into that too, reach out and say hi!
