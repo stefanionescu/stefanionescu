@@ -3,7 +3,7 @@
 Right now I’m building a new live shopping app. Will reveal more in the next few weeks.
 
 In 2025 and early 2026 I worked a lot on voice companions and voice infra. Check out some of that work here:
-- [orpheus-tts-api](https://github.com/stefanionescu/orpheus-tts-api)](https://github.com/stefanionescu/orpheus-tts-api) - Orpheus 3B TTS API
+- [orpheus-tts-api](https://github.com/stefanionescu/orpheus-tts-api) - Orpheus 3B TTS API
 - [voxtral-tts-api](https://github.com/stefanionescu/voxtral-stt-api) – Voxtral STT API
 - [voxcpm-1.5-tts-api](https://github.com/stefanionescu/voxcpm-1.5-tts-api) - VoxCPM 1.5 TTS API
 - [text-inference](https://github.com/stefanionescu/text-inference) - text inference server with the ability to switch between TensorRT and vLLM and run a lot of different models
