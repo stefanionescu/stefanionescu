@@ -9,8 +9,6 @@ In 2025 and early 2026 I worked a lot on voice companions and voice infra. Check
 - [text-inference](https://github.com/stefanionescu/text-inference) - text inference server with the ability to switch between TensorRT and vLLM and run a lot of different models
 - [screenshot-analysis-pipeline](https://github.com/stefanionescu/screenshot-analysis-pipeline) - analyse phone/desktop screenshots; used to pass screenshot context to a companion
 
----
-
 ## Past Projects: RAI
 A few years back I worked on **RAI**, a floating-peg stablecoin backed by ETH.
 RAI uses a **PI controller** to set its own funding rate (similar to a perp swap’s funding mechanism) and was my attempt at fulfilling the original vision for DAI.
@@ -23,29 +21,14 @@ Repos from that era:
 
 **RAI was basically a super nerdy modified DAI fork.**
 
----
-
 ## Side Projects
-A bunch of other projects I've been playing with: 
+A bunch of other projects I built:
 
 - [llm-roleplay-webapp](https://github.com/stefanionescu/llm-roleplay-webapp) – think *Character.ai x TikTok*.  
-  - Used `react-virtua` for efficient chat virtualization  
-  - Related repos:  
-    - [llm-inference-load-balancer](https://github.com/stefanionescu/llm-inference-load-balancer) – distribute inference requests across providers, scaling Llama models to 1000+ DAU  
-    - [llm-roleplay-main-api](https://github.com/stefanionescu/llm-roleplay-main-api) – RAG + waitlist API  
-    - [redis-user-waitlist](https://github.com/stefanionescu/redis-user-waitlist) – customizable Redis waitlist that actually scales  
 
-- [yc-cofounder-matching-bot](https://github.com/stefanionescu/yc-cofounder-matching-bot) – a Selenium bot I built to automatically hunt for cofounders on YC’s Cofounder Matching platform.  
-  - Can change locations to search in different cities  
-  - Filters + saves founder profiles, sends them messages with your own templates  
-  - Uses GPT to decide if a profile is a fit or not  
-  - Sends you email reports with stats from each run  
-  (Deprecated now due to YC’s security upgrades, but still a fun hack.)  
+- [yc-cofounder-matching-bot](https://github.com/stefanionescu/yc-cofounder-matching-bot) – a Selenium bot I built to automatically hunt for cofounders on YC’s Cofounder Matching platform.
 
 - [suno-music-discord-bot](https://github.com/stefanionescu/suno-music-discord-bot) – generate music from images/videos inside Discord.  
-  (It scrapes Suno.com under the hood. Don’t tell them.)  
-
----
 
 ## TL;DR
 - Built **RAI** (floating-peg ETH-backed stablecoin w/ PI controller funding rate)  
