@@ -12,14 +12,14 @@ In 2025 and early 2026 I worked a lot on voice companions and voice infra. Check
 ## Past Projects: RAI
 A few years back I worked on **RAI**, a floating-peg stablecoin backed by ETH.
 RAI uses a **PI controller** to set its own funding rate (similar to a perp swap’s funding mechanism) and was my attempt at fulfilling the original vision for DAI.
-We scaled the system to $390M in user funds
+We scaled the system to $390M in user funds.
 
 Repos from that era:  
 - [geb](https://github.com/stefanionescu/geb) – main code for RAI  
 - [geb-rrfm-rate-setter](https://github.com/stefanionescu/geb-rrfm-rate-setter) – the redemption rate feedback mechanism (controller that sets the funding rate)  
 - [geb-safe-saviours](https://github.com/stefanionescu/geb-safe-saviours) – adapters to deposit assets/wrapped tokens from other protocols into RAI-like systems. The deposited assets get auctioned to save CDPs from liquidation 
 
-**RAI was basically a super nerdy modified DAI fork.**
+RAI was basically a super nerdy modified DAI fork.
 
 ## Side Projects
 A bunch of other projects I built:
